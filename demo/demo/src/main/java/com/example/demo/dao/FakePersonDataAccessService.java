@@ -6,7 +6,7 @@ import java.util.UUID;
 import com.example.demo.model.Person;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository("FakeDao")
 public class FakePersonDataAccessService implements PersonDao {
 
     private static List<Person> DB = new ArrayList<>();
